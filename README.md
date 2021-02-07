@@ -1,8 +1,5 @@
 # directional-gini
 ### Introduction
-A slightly modified version of Gini importance ("Directional Gini importance") that includes direction of correlation information between feature and model prediction
-
-
 This is a slightly modified version of the Gini importance metric for measuring feature importance in decision tree regression models. Instead of giving a strictly positive value, the sign of the value for each feature will indicate whether the feature is overall positively or negatively correlated with the model prediction, analogous to beta coefficients in linear regression. 
 
 This code is a modified version of a function for calculating normal Gini importance located at the following link: 
