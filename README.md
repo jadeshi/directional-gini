@@ -1,6 +1,6 @@
 # directional-gini
 ### Introduction
-This is a slightly modified version of the Gini importance metric (Breiman L: Random forests. J Mach Learn 2001, 45: 5–32) for measuring feature importance in decision tree regression models. Instead of giving a strictly positive value, the sign of the value for each feature will indicate whether the feature is overall positively or negatively correlated with the model prediction, analogous to beta coefficients in linear regression. 
+This is a slightly modified version of the Gini importance metric (Breiman L: Random forests. J Mach Learn 2001, 45: 5–32) for measuring feature importance in decision tree-based regression models. Instead of giving a strictly positive value, the sign of the value for each feature will indicate whether the feature is overall positively or negatively correlated with the model prediction, analogous to beta coefficients in linear regression. 
 
 This code is a modified version of a function for calculating normal Gini importance located at the following link: 
 https://stackoverflow.com/questions/49170296/scikit-learn-feature-importance-calculation-in-decision-trees
