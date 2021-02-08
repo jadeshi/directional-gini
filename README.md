@@ -6,10 +6,10 @@ This code is a modified version of a function for calculating normal Gini import
 https://stackoverflow.com/questions/49170296/scikit-learn-feature-importance-calculation-in-decision-trees
 
 
-The two functions included in the directional_gini.py file, compute_directional_gini and compute_ensemble_directional_gini, are meant to be used with scikit-learn's (https://scikit-learn.org/stable/) fitted DecisionTreeRegressor and RandomForestRegressor objects as arguments respectively. They will return an array of length N (N being the number of total features in your input data) of directional Gini feature importance for either a single tree or a random forest.
+The two functions included in the directional_gini.py file, compute_directional_gini and compute_ensemble_directional_gini, are meant to be used with scikit-learn's (https://scikit-learn.org/stable/) fitted DecisionTreeRegressor and RandomForestRegressor objects as arguments respectively. They will return an array of length N (N being the number of total features in your input data) of Directional Gini importance for either a single tree or a random forest.
 
 
-For ideal, noiseless data with perfect positive or negative correlation between feature and independent variable, the magnitude of Directional Gini is exactly equal to either the postive or negative of normal Gini importance, depending on the direction of correlation. For realistic data with noise present, the magnitude of Directional Gini will likely often be less than that of Gini.
+For ideal, noiseless data with perfect positive or negative correlation between feature and independent variable, the magnitude of Directional Gini importance is exactly equal to either the postive or negative of normal Gini importance, depending on the direction of correlation. For realistic data with noise present, the magnitude of Directional Gini will likely often be less than that of Gini.
 
 ### Example Usage
 ```
